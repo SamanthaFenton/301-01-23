@@ -1,8 +1,8 @@
 import "./App.css";
 
 import Header from "./components/Header/Header";
-import Main from "./components/Footer/Footer";
-import Footer from "./components/Main/Main";
+import Main from "./components/Main/Main";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,4 +14,4 @@ function App() {
   );
 }
 
-export default App();
+export default App;
