@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import "./HornedBeast.css";
 
 export default function HornedBeast({ title, imageUrl, description, handleModal, beastObject }) {
