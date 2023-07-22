@@ -1,4 +1,4 @@
-.hb-container {
+/*.hb-container {
   width: 45vw;
 }
 
@@ -11,4 +11,25 @@ img {
 
 img:last-of-type {
   object-position: right;
+}
+
+.heart {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}*/
+
+.heart {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.hb-container {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
 }

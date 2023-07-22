@@ -1,10 +1,12 @@
 import React from "react";
 
-import "./Main.css";
+import "./Main";
 
 import HornedBeast from "../HornedBeast/HornedBeast";
 
-export default function Main({ data, handleModal }) {
+// import data from "./Data/data.json";
+
+export default function Main({ beastData, handleModal }) {
   return (
     <main>
       {beastData.map((beast, key) => {
