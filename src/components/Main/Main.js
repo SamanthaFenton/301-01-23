@@ -1,7 +1,7 @@
 import React from "react";
 import "./Main.css";
 import HornedBeast from "../HornedBeast/HornedBeast";
-import data from "data.json";
+import data from "../Main/Data/data.json";
 
 export default function Main() {
   return (
